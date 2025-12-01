@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cookie & Caramel</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+</head>
+<body style="text-align:center;">
+<style>
+    * { font-family: 'Lora', serif !important; }
+</style>
+    
+<script>
+    window.onload = function() {
+        alert("Welcome to Cookie and Caramel!");
+	    recommendDessert();
+	};
+	
+	function recommendDessert() {
+        const userName = prompt("What's your name?");
+
+    const desserts = [
+        "Chocolate Chip Cookies",
+        "Strawberry Shortcake",
+        "Brownies",
+        "Cupcakes",
+        "Rocky Road",
+        "Lemon Curd",
+    ];
+
+    const randomIndex = Math.floor(Math.random() * desserts.length);
+    const result = desserts[randomIndex];
+
+   alert("Hi " + userName + ", Today's dessert recommendation is: " + result + "!");
+
+};
+</script>
+
+
+	<div class="header" style="text-align:center;">
+		<div>
+			<a href="index.html" id="logo"><img src="images/header.jpeg" alt="logo" style="width:1260px; height:auto; position:absolute; top:-13px; left:0.2px;"></a>
+			<ul style="position:relative; z-index:999; display:flex; justify-content:center; gap:40px; list-style:none; padding:0; margin:0 auto; white-space:nowrap;">
+				<li class="selected"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+			</ul>
+		</div>
+	</div><div class="content" style="background:#c4a484; text-align:center;">
+    <div>
+        <ul style="list-style:none; padding:0; margin:0 auto; display:flex; justify-content:center; gap:40px;">
+            <li>
+                <a href="menu.html"><img src="images/cake.jpg" width="250" height="250"></a><br><br>
+            </li>
+            <li>
+                <a href="menu.html"><img src="images/Brownie Cake.jpg" width="250" height="250"></a><br><br>
+            </li>
+            <li>
+                <a href="menu.html"><img src="images/Cupcakes.jpg" width="250" height="250"></a><br><br>
+            </li>
+        </ul>
+
+        <ul style="list-style:none; padding:0; margin:40px auto 0; display:flex; justify-content:center; gap:40px;">
+            <li>
+                <a href="menu.html"><img src="images/Cookies.jpg" width="250" height="250"></a><br><br>
+            </li>
+            <li>
+                <a href="menu.html"><img src="images/Lemon curd.jpg" width="250" height="250"></a><br><br>    
+            </li>
+            <li>
+                <a href="menu.html"><img src="images/Rocky road.jpg" width="250" height="250"></a><br><br>   
+            </li>
+        </ul>
+		
+		 <ul style="list-style:none; padding:0; margin:40px auto 0; display:flex; justify-content:center; gap:40px;">
+            <li>
+                <a href="menu.html"><img src="images/Mousse.jpg" width="250" height="250"></a><br><br>
+            </li>
+            <li>
+                <a href="menu.html"><img src="images/Santa.jpg" width="250" height="250"></a><br><br>    
+            </li>
+            <li>
+                <a href="menu.html"><img src="images/Lemon.jpg" width="250" height="250"></a><br><br>   
+            </li>
+        </ul>
+    </div>
+</div>
+
+			</ul>
+		</div>
+	</div>
+	<div class="footer" style="background:#9d6e57;">
+		<div>
+			<div>
+				<div style="background:white; width:200px; padding:20px; border-radius:10px;">
+                 WEBSITE TEMPLATE</div>
+				<p><a href ="https://freewebsitetemplates.com/preview/breadfactorytemplate/index.html">Click here to find the Original Website Template</a></p>
+				<!-- Instagram Button -->
+<a href="https://www.instagram.com/cookiencaramel_?igsh=bnRscnR5aDY0ZzB0" target="_blank" style="text-decoration:none;">
+    <button style="
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 20px;
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        color: brown;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: sans-serif;
+    ">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+             alt="Instagram" 
+             style="width:24px; height:24px;">
+        Follow us on Instagram
+    </button>
+</a>
+
+			</div>
+			<p>Copyright &#169; Thedara Dassanayake | 25224519 | All rights reserved.</p>
+		</div>
+	</div>
+</body>
+</html>
